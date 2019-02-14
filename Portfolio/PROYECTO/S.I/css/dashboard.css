@@ -1,0 +1,81 @@
+.dashb {
+	margin-top: 30px;
+	/*border: 1px solid red;*/
+}
+.dashb h2 {
+	color: rgba(0,0,0,0.7);
+	border-bottom: 1px solid rgba(155,155,155,0.6)
+}
+.promedio {
+	/*height: 200px;*/
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+	background-color: #fff;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.ventasP {
+	/*margin-left: 10px;*/
+	/*border : 1px solid red;*/
+	/*height: 430px;*/
+	margin-top: 20px;
+	/*margin-right: 5px;*/
+}
+.navbar {
+height: 50px;
+/*border: 1px solid red;*/
+}
+.navbar a {
+	/*font-size: 2em;*/
+}
+
+}
+.footer2{
+	height: 100px;
+	border : 1px solid red;
+	margin-top: 50px;
+}
+
+.visitantes h2 {
+	font-size: 2em;
+	/*color: green;*/
+	margin-top: 20px;
+	margin-left: 10px;
+	border-bottom: 1px solid rgba(155,155,155,0.3)
+}
+
+.visitantes p {
+	margin-left: 10px;
+	font-size: 20px;
+
+}
+
+@media (max-width: 575px) {
+    .navpart2 {
+    display: none;
+  }
+}		
+.ventasP{
+	/*margin-right: 10px;*/
+	/*margin-left: 10px;*/
+	border-left: 1px solid rgba(155,155,155,0.6);
+	background-color: #fff;
+	border-radius: 5px;
+	border-bottom: 1px solid rgba(155,155,155,0.6);
+}
+.ventasP p {
+	font-size: 2em;
+	padding: 15px;
+	border-bottom: 1px solid rgba(155,155,155,0.6);
+}
+.grafica {
+	border: 1px solid blue;
+}
+.ventaPbd{
+	border-right: 1px solid rgba(155,155,155,0.6);
+
+}
+.promedio p {
+
+}

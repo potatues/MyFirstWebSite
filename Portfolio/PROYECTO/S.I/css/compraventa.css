@@ -1,0 +1,61 @@
+.listarproveedores {
+	/*height: 600px;*/
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	background-color: #fff;
+	margin-left: 20px;
+}
+.listarproveedores td {
+	border-bottom: 1px solid rgba(155,155,155,0.2);
+	/*border-right: 1px solid rgba(155,155,155,0.2);*/
+	/* width: 200px;tablaproduc */
+	color: rgba(0,0,0,0.6);
+
+}
+td input {
+	width: 150px;
+}
+.listarproveedores td p {
+	color:rgba(148, 40,37,0.6);
+}
+
+.codigoproveedor{
+	width: 20px;
+}
+
+.tablaproveedores {
+	/*overflow: scroll;*/
+}
+.info {
+	color:rgba(148, 40,37,0.6);
+}
+.nuevostock td {
+	width: 400px;
+}
+.comprarimple td {
+	width: 200px;
+}
+.comprarimple input {
+	width: 132px;
+}
+
+
+/*VEEENTA*/
+.venta2{
+	margin-top: 50px;
+	border: 1px solid rgba(155,155,155,0.6);
+	background-color: #fff;
+}
+.nuevatitulo {
+	border-bottom: 1px solid rgba(155,155,155,0.4);
+	color:rgba(148, 40,37,0.6);
+}
+.venta2 label {
+	margin-top: 10px;
+}
+ .ajs-message.ajs-custom {
+  color:rgba(255,255,255,0.9);
+  background-color:#2EFE64;
+  border-radius: 2px;
+ }
+

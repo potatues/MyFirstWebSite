@@ -1,0 +1,45 @@
+  
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	 <link rel="shortcut icon" href="../../img/icono.png">
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	
+	
+	<link href="css/estilos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/administrator.css">
+	<link rel="stylesheet" href="css/vertical.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	
+</head>
+<body>
+
+	<canvas class="line-chart"></canvas>
+
+<script src="https://cdnjs.com/libraries/Chart.js"></script>
+	
+	<script>
+		var ctx = document.getElementByClassName("line-chart");
+		var chartGraph = new  Chart(ctx, {
+    	type: 'lyne',
+		});
+	</script>
+
+	
+
+  
+  
+  <script src="../js/dashboard.js"></script>
+  <script src="../../js/scripts.js"></script>
+
+</body>
+</html>

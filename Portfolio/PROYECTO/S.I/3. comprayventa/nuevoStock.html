@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Administrador</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <link rel="shortcut icon" href="../../img/icono.png">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="../../OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+  <link href="css/estilos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/administrator.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <link rel="stylesheet" href="../../FormValidation/formvalidation-master/dist/css/formValidation.min.css">
+  <link rel="stylesheet" href="../css/pedido.css">
+  <link rel="stylesheet" href="../../css/vertical.css">
+  <link rel="stylesheet" href="../../css/font-awesome.css">
+  <link rel="stylesheet" href="../css/compraventa.css">
+  <link rel="stylesheet" href="./../css/fonts.css">
+  
+</head>
+<body>
+  <header>
+  <div class="container-fluid">
+        <div class="row navbar bg-faded navbar-expand-lg navbar-light navi">
+         <div class="col-md-1 logotipo"><a class="navbar-brand nav-item  mb-1" href="#"><img src="../../img/Mc_Lash_1_.png" alt="" width="100" height="50"></a></div>
+      <div class="col-md-10 col-sm-10 navegacion43">
+        
+          
+      </div>
+     
+      
+      <div class="col-md-1 col-sm-2 navparte2">
+
+          <div class="btn-group ">
+            <button type="button" class="btn btn-default dropdown-toggle dropdownnav " data-toggle="dropdown" aria-expanded="false" ">
+              
+            </button>
+
+            <div class="dropdown-menu dropdown-menu-right">
+               <a href="../5. perfil/registrarusuario.html"><button class="dropdown-item bordemiperfil" type="button">Registrar usuario</button></a>
+              <a href="../5. perfil/perfil.html"><button class="dropdown-item bordemiperfil" type="button">Mi perfil</button></a>
+              <div class="dropdown-divider"></div>
+              <a href="../../principalaler.html"><button class="dropdown-item" onclick="alerta2()" type="button">Salir</button></a>
+            </div>
+            <a href="../5. perfil/editarperfil.html"><div class="rounded-circle cambioimg">
+            <!-- <img src="../../img/cara5.jpg" alt="" class="rounded-circle imagenav" width="35" height="40"> -->
+            </div></a>
+          </div>
+           
+             
+        </div>
+      </div>
+  </div>
+</header>
+<main>
+  <div class="container-fluid">
+    <div class="row ">
+          <section class="col-12 menu431 ">
+               <div class="bootstrap-vertical-nav">
+
+                <button class="btn " type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <span class=""><img src="../../img/menu.png" widht="20" height="20" alt="" class=""></span>
+                </button>
+
+               <div class="collapse" id="collapseExample">
+                    <ul class="nav flex-column" id="exCollapsingNavbar3">
+                       <li class="nav-item">
+                            <a class="nav-link margin" href="../../adminFinal.html"><br><p><span><img src="../../img/icons/1.png" alt="" width="15" height="15"></span> Inicio</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link margin" href="../1. Dashboard/dashboard.html"><p class="text-dark "><span><img src="../../img/icons/6.png" alt="" width="15" height="15"></span> Gráficas</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link margin" href="../2. pedido/pedido.html"><p class="text-dark "><span><img src="../../img/icons/2.png" alt="" width="15" height="15"></span> Pedido</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link margin" href="../3. comprayventa/Compra&venta.html"><p class="text-dark "><span><img src="../../img/icons/buy.png" alt="" width="20" height="20"></span> Compra/Venta</p></a>
+                        </li>
+                        <li class="nav-item">
+                            
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link margin" href="../4. produccion/salidastock.html"><p class="text-dark "><span><img src="../../img/icons/goal.png" alt="" width="20" height="20"></span> Producción</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link margin" href="../5. perfil/perfil.html"><p class="text-dark "><span><img src="../../img/icons/boy.png" alt="" width="20" height="20"></span> Perfil</p></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link margin" href="../5. perfil/registrarusuario.html"><p class="text-dark disabled "><span><img src="../../img/door.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Registrar usuario</p></a>
+                        </li>
+                           
+                        </li>
+                           <li class="nav-item">
+                           <a class="nav-link margin" href="../../error504.html"><p class="text-dark disabled "><span><img src="../../img/warning.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Sugerencias o reclamos</p></a>
+                        </li>
+                          <li class="nav-item">
+                           <a class="nav-link margin" href="../../principalaler.html"><p class="text-dark disabled "><span><img src="../../img/exit.png" alt="" width="20" height="20" class="mt-1 mr-2" onclick="alerta2()"></span> Salir</p></a>
+                        </li>
+                    </ul>
+                
+                </div>
+
+            </div>
+
+          </section>
+       </div>
+  </div>
+  <div class="container-fluid">
+  
+    <div class="row">
+      <section class="col-12 col-sm-auto dashboard  ">
+                
+        <nav class="navdash">
+
+              
+                <img src="../../img/cara5.jpg" alt="imagen perfil" class="rounded-circle imagennav2 " width="100" height="130"><br>
+              <div class="name">
+              <img src="../../img/pngblanco.png" width="40" height="70" class="rounded-circle pngblanco ">
+
+                <p class="nombre ml-30 text-dark">Andrés Martínez</p>
+                </div>
+                <div>
+                  <i class="text-center cargo"><span><img src="../../img/medal.png" class="mt-2" alt="" width="15" height="15"></span>Administrador</i>
+                </div>
+                
+                            <a class="nav margen-top navso" href="../../adminFinal.html"><p class="text-dark"><img src="../../img/icons/1.png" alt="" width="15" height="15" class="mt-1 mr-2"> Inicio</p></a>
+                        
+                        
+                            <a class="nav navso" href="../1. Dashboard/dashboard.html"><p class="text-dark "><span><img src="../../img/icons/6.png" alt="" width="15" height="15" class="mt-2 mr-2"></span>  Gráficas</p></a>
+                        
+                       
+                            <a class="nav navso" href="../2. pedido/pedido.html"><p class="text-dark "><span><img src="../../img/icons/2.png" alt="" width="15" height="15" class="mt-1 mr-2"></span> Pedido</p></a>
+                       
+
+
+                            <a class="nav navso" href="../3. comprayventa/Compra&venta.html"><p class="text-dark "><span><img src="../../img/icons/buy.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Compra/Venta</p></a>
+                        
+                        
+                       
+                           <a class="nav navso" href="../4. produccion/salidastock.html"><p class="text-dark "><span><img src="../../img/icons/goal.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Producción</p></a>
+                    
+                            <a class="nav navso" href="../5. perfil/perfil.html"><p class="text-dark "><span><img src="../../img/icons/boy.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Perfil</p></a>
+
+                           <a class="nav navso" href="../../error504.html"><p class="text-dark disabled "><span><img src="../../img/warning.png" alt="" width="20" height="20" class="mt-1 mr-2"></span> Sugerencias o reclamos</p></a>
+                      
+                      
+                       <!-- <li class="nav-item">
+                          <a href="#"><button  onclick="alerta2()" class="btn btn-danger " style="cursor:pointer;" value="SALIR">SALIR</button></a>
+                        </li> -->
+              
+              </nav>
+        
+      </section>
+      
+      <aside class="main col">
+
+        <div class="row">
+          <div class="col-12 columna ">
+            <div class="div titulomodulo">
+              <h2>COMPRA / VENTA</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col hola">
+               <div class="col navpedido .d-none.d-sm-block">
+           
+               <nav class="navbar navbar-expand-lg navbar-light ">
+                 
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link  "  href="Compra&venta.html"><article>Proveedores</article> <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link active "  href="nuevoStock.html"><article>Nuevo stock</article></a>
+                     
+                      <a class="nav-item nav-link " href="compraImplementos.html"><article>Compra de Implementos</article></a>
+                       <a class="nav-item nav-link " href="mispedidos.html"><article></article></a>
+                        <a class="nav-item nav-link " href="venta.html"><article>Venta</article></a>
+                    </div>
+                  </div>
+                </nav>
+                
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12
+          seccionprincipal">
+                   <div class="row">
+       <div class="col listarproveedores nuevostock">
+
+            <table class="table table-responsive table-hover" id="data_table">
+              <thead class=" thead-danger encabezado">
+                <tr class="info ">
+                  <td scope="col"><p>Código</p></td>
+                  <td scope="col"><p>Nombre</p></td>
+                  <td scope="col"><p>Insumo principal</p></td>
+               
+                  
+                  <td scope="col">
+                   
+                  
+
+        
+
+                  </td>
+                  
+                </tr>
+              </thead>
+              <tbody>
+              <tr class="fila-0" id="row1">
+                <td id="name_row1">66100</td>
+                <td id="country_row1">Carnes res</td>
+                <td id="age_row1">Res</td>
+               
+                <td>
+
+                   <img class="kl-b-2 kl-shine kl-spin delete" src="../../img/recycle-bin.png" id='save_button1' id="save_button1" onclick="delete_row('1')" style="cursor: pointer;" width="30" height="30">
+                  <img class="kl-b-2 kl-shine kl-spin edit" src="../../img/wrench.png" id='edit_button1' style='cursor: pointer;' onclick="edit_row('1')" width="30" height="30">
+                     <img class="kl-b-2 kl-shine kl-spin save" src="../../img/save.png" id='save_button1' style="cursor: pointer;" onclick="save_row('1')" width="25" height="25">
+-
+                  
+              
+                </td>
+              </tr>
+
+
+                    <tr class="fila-0" id="row2">
+                <td id="name_row2">66101</td>
+                <td id="country_row2">Carne pavo</td>
+                <td id="age_row2">Pavo</td>
+                
+                <td>
+                   <img class="kl-b-2 kl-shine kl-spin delete" src="../../img/recycle-bin.png" id='save_button2' id="save_button2" onclick="delete_row('2')" style="cursor: pointer;" width="30" height="30">
+                  <img class="kl-b-2 kl-shine kl-spin edit" src="../../img/wrench.png" id='edit_button2' style='cursor: pointer;' onclick="edit_row('2')" width="30" height="30">
+                     <img class="kl-b-2 kl-shine kl-spin save" src="../../img/save.png" id='save_button2' style="cursor: pointer;" onclick="save_row('2')" width="25" height="25">
+                </td>
+              </tr>
+                    <tr class="fila-0" id="row3">
+                <td id="name_row3">66103</td>
+                <td id="country_row3">Carne molida</td>
+                <td id="age_row3">Res</td>
+               
+                <td>
+               <img class='kl-b-2 kl-shine kl-spin delete' src='../../img/recycle-bin.png' id='save_button3' onclick='delete_row("3")' style='cursor: pointer;' width='30' height='30'>
+                     <img class='kl-b-2 kl-shine kl-spin edit' src='../../img/wrench.png' id='edit_button3' style='cursor: pointer;' onclick='edit_row("3")' width='30' height='30'>
+                     <img class='kl-b-2 kl-shine kl-spin save' src='../../img/save.png' id='save_button3' style='cursor: pointer;'' onclick='save_row("3")'' width='25' height='25'>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" class="form-control" id="new_name"></td>
+                <td><input type="text" class="form-control" id="new_country"></td>
+                <td><input type="text" class="form-control" id="new_age"></td>
+                
+                
+
+                <td><button class="btn btn-info add" type="button"  style="cursor: pointer;" onclick="add_row()"><i class="fa fa-plus"></i></button>
+                </td>
+                </tr>
+
+            </tbody>
+      </table>
+
+
+
+        <!--          <table class="table table-responsive table-hover" id="data_table">
+              <thead class=" thead-danger encabezado">
+                <tr class="info ">
+                  <td scope="col"><p>Codigo</p></td>
+                  <td scope="col"><p>Nombre</p></td>
+                  <td scope="col"><p>Insumo principal</p></td>
+                  <td scope="col">
+                    <button class="btn btn-info" type="button" id="add2" style="cursor: pointer;"><i class="fa fa-file"></i></button>
+                     <a href="Compra&venta.html"><button class='btn btn-success guardar' id="guardar2" style="cursor: pointer;"><i class='fa fa-save'></i></button></a>
+                
+              
+
+                  </td>
+                  
+                </tr>
+              </thead>
+              <tbody>
+              <tr class="fila-0">
+                <td>66100</td>
+                <td>Carnes res</td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66101</td>
+                <td>Carnes pavo</td>
+                <td>Pavo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66102</td>
+                <td>Carne cerdo</td>
+                <td>Cerdo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66104</td>
+                <td>Carne molida</td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66105</td>
+                <td>Bondiola</td>
+                <td>Cerdo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66106</td>
+                <td>Grasa cerdo</td>
+                <td>Cerdo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66106</td>
+                <td>Costillas cerdo</td>
+                <td>Cerdo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66107</td>
+                <td>Tripa</td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66108</td>
+                <td>Carne Magra</td>
+                <td>Cerdo</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66109</td>
+                <td>Pasta carne</td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66110</td>
+                <td>Arroz integral</td>
+                <td>Arroz</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66110</td>
+                <td>Trompa </td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+                  <tr class="fila-0">
+                <td>66111</td>
+                <td>Sobrebarriga</td>
+                <td>Res</td>
+                <td>
+                <button class='btn btn-danger borrar2'><i class='fa fa-trash' style="cursor: pointer;"></i></button>
+                <button class='btn btn-warning editar2' id="editar2" style='cursor: pointer;''><i class='fa fa-pencil'></i></button>
+
+                </td>
+  
+              </tr>
+
+
+            </tbody>
+      </table> -->
+
+
+            </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+      </aside>
+      
+      
+    </div>
+        
+  </div>
+  
+</main>
+  <footer>
+    
+        <div class="container">
+        <div class="row">
+        <!-- <div class="col-md-2"></div> -->
+        <div class="col-md-3 col-sm-12 text-center loguito mr-2">
+          <img src="img/mcla.png" width="200" height="100" alt="" class="footer-logo">
+        </div>
+        <div class="col-md-2 col-sm-12 text-center">
+            <i class="fa fa-map"></i><br>
+                <div>Cll Example 1<br>Av. exmp 14<br>Cra 55 example<br></div>
+        </div>
+        <div class="col-md-2 col-sm-12 text-center">
+          <i class="fa fa-mobile" aria-hidden="true"></i><br>
+              <div>33333-3333-333<br>000-0000-0000</div>
+        </div>
+            <div class="col-md-2 col-sm-12 text-center">
+          <i class="fa fa-envelope"></i><br>
+                <div>
+                      <a href="#">infochor@gmail.com</a>
+                     
+                  </div>
+          </div>
+          <div class="col-md-2 col-sm-12 text-center redessociales">
+            <div class="footer-social">
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-dribbble"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+          </div>
+        </div>
+        </div>
+</footer>
+
+
+
+
+
+
+
+          
+     
+  
+    
+
+  <script src="../../js/jquery-3.2.1.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+
+  <script src="../../chart.js/dist/Chart.min.js"></script>
+  <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script> 
+  <script src="../../FormValidation/formvalidation-master/dist/js/formValidation.min.js"></script>
+  <script src="../../FormValidation/formvalidation-master/dist/js/framework/bootstrap.min.js"></script>
+  <script src="../js/dashboard.js"></script>
+  <!-- <script src="../js/compraventa.js"></script> -->
+  <script src="../js/compraventa/nuevostock.js"></script>
+  <script src="../../js/scripts.js"></script>
+
+</body>
+</html>

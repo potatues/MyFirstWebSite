@@ -1,0 +1,68 @@
+.row {
+	height: 100%;
+	width: 100%;
+}
+body {
+background-image: url(../img/fondoCarne5.jpg);
+background-size: cover;
+text-decoration: none;
+  /*-webkit-filter: grayscale(100%);*/
+   /*filter: grayscale(100%);*/
+
+  position: absolute;
+
+}
+.princi {
+	/*background: rgba(0,0,0,0.7);*/
+	z-index: 1;
+}
+.triste {
+	height: 100%;
+	width: 90%;
+}
+a{
+	text-decoration: none;
+}
+.volver i {
+	text-decoration: none;
+	color: rgba(0,0,0,0.7);
+}
+.volver:hover {
+	background: rgba(155,155,155,0.8);
+	color: rgba(0,0,0,1);
+}
+.error {
+	/*text-decoration: underline;*/
+	margin-top: 20px;
+	color: rgba(255,255,255,0.7);
+	font-size: 6em;
+	text-decoration: underline;
+	/*background-color: rgba(0,0,0,0.6);*/
+	border-radius: 5px;
+}
+.descrip{
+	color: rgba(255,255,255,0.6);
+	font-size: 2em;
+
+	/*background-color: rgba(0,0,0,0.6);*/
+	border-radius: 10px;
+}
+.imagenfondo .fa {
+	font-size: 10em;
+	color: rgba(0,0,0,0.7);
+}
+.icono {
+	margin-top: 70px;
+}
+.volver {
+	/*text-decoration: underline;*/
+	color: rgba(0,0,0,0.8);
+}
+.volver:hover {
+	color: rgba(0,0,0,0.9);
+}
+@media (max-width: 711px) {
+	.salchic {
+		display: none;
+	}
+}

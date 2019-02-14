@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Iniciar sesión</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+ 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+   
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/scripts.js"></script>
+    <script src ="js/validar.js"></script>
+
+  </head>
+  <body>
+    <div class="page login-page ">
+      <div class="container d-flex align-items-center">
+        <div class="form-holder has-shadow">
+          <div class="row">
+            <!-- -->
+            <div class="col-lg-6">
+              <div class="info d-flex align-items-center">
+                <div class="content">
+                  <div class="logo">
+                    <img src="img/mcla.png" alt="" width="200" height="100">
+                  </div>
+                  <p>¡Bienvenido, cambie la contraseña para disfrutar todos los beneficios!</p>
+                </div>
+              </div>
+            </div>
+            <!--    -->
+            <div class="col-lg-6 bg-white">
+            <div class="close">
+                    <a href="principalaler.html"><i class="fa fa-close"></i></a>
+                </div>
+              <div class="form d-flex align-items-center">
+
+                <div class="content">
+                
+            <form id="login-form" method="post" name="login">
+                   <div class="form-group">
+            <label for="usuario">Correo*<i class="fa fa-user orale d-none d-md-block d-lg-block usuariosver mt-1 ml-2" data-toggle="popover" title="Usuarios" data-content="ADM : admin@gmailcom Pass: 123 , CONTA: contador@gmail.com P: 123 VENDE: vendedor@gmail.com P: 123 CLIENTE: cliente@gmail.com P: 123" style="cursor: pointer;"> </i> </label>
+           
+
+            <input class="form-control " type="email" id="usuario" name="usuario" placeholder="email@gmail.com">
+          </div>             
+       <!--    <div class="form-group">
+            <label for="password">Contraseña*</label>
+            <input class="form-control" type="password" id="password" name="password" placeholder="Ingrese su contraseña" >
+             <a href="olvido.html" class="forgot-pass mt-10">¿Olvidó la contraseña?</a><br>
+          </div> -->
+<!-- 
+                   <button type="submit" class="btn btn-danger btn-block">Enviar</button> -->
+                   <input type="button" target="_parent" onclick="Login()" class="btn btn-danger btn-block" value="Ingresar" style="cursor: pointer;" >
+
+                  </form>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </div>
+    <!-- Javascript-->
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  
+    <script src="js/popper.min.js"></script>
+  
+    <script src="js/bootstrap.min.js"></script>
+ 
+    <script src="js/front.js"></script>
+     <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script> 
+     <script src="js/olvido.js"></script>
+  </body>
+</html>

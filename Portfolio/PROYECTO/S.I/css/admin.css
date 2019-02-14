@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i");
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+  body {
+  margin: 0; 
+background-color: #f4f4f4
+}
+.capito2 {
+  border: 1px solid red;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem; }
+
+.llero {
+  border:1px solid red;
+  height: 300px;
+}
